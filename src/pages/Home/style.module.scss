@@ -1,0 +1,92 @@
+$default: '#9147FF';
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    &::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: rgba(0,0,0,0.2);
+    }
+
+    .header {
+        width: 100%;
+        height: 1000px;
+        background-image: url(../../assets/style3.png);
+        background-position: center bottom;
+        background-size: cover;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        .contentHeaderLeft {
+            height: 100%;
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            padding-top: 100px;
+            flex-direction: column;
+
+            .titleHeaderLeft {
+                color: #ededed;
+                padding-top: 50px;
+                font-size: 54px;
+                font-family: "Nunito", sans-serif;
+                font-weight: 700;
+            }
+
+            .textHeaderLeft {
+                color: #ededed;
+                padding-top: 30px;
+                font-size: 30px;
+                font-family: "Nunito", sans-serif;
+                display: flex;
+                flex-direction: column;
+                font-weight: 400;
+                
+                &::after {
+                    content: '';
+                }
+
+                span {
+                    padding: 10px 0;
+
+                }
+            }
+        }
+
+        .contentHeaderRight {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .icon {
+
+            }
+        }
+
+    }
+
+    .bgWhite {
+        width: 100%;
+        height: 80vh;
+    }
+
+    .bgThree {
+        width: 100%;
+        height: 1285px;
+        background-image: url(../../assets/background-transparent.png);
+    }
+
+    .bgWhite {
+        width: 100%;
+        height: 80vh;
+    }
+}
