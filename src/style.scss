@@ -5,4 +5,13 @@ body {
     background-color: #ffff;
     margin: 0;
     font-family: 'Segoe UI', Helvetica Neue, Helvetica, Lucida Grande, Arial;
+
+    &::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: #D9B4FF;
+    }
 }
