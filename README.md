@@ -1,5 +1,5 @@
 # Website MBR Tech
-Este projeto tem como objetivo no desenvolvimento do website da MBR Tech.
+Este projeto tem como objetivo o desenvolvimento do website da MBR Tech.
 
 > Status: Desenvolvimento ⚠️
 
